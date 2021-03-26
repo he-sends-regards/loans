@@ -1,0 +1,59 @@
+.form {
+    width: 80%;
+    height: 100%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.form__title {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.loan-type {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.loan-type > span {
+    color: grey;
+}
+
+.loan-type__main {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.loan-type__currency {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.currency {
+    cursor: pointer;
+}
+
+.active-currency {
+    color: green;
+    text-decoration: underline green;
+}
+
+input {
+    color: green;
+}
+
+.home-price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
